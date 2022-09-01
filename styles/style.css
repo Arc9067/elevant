@@ -80,6 +80,39 @@ button{
     font-family: "McLaren";
 }
 
+/* .carousel-control-prev-icon{} */
+
+.inam:nth-child(1){
+    background-color: #F0EBE3;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.inam:nth-child(1) h1{
+    font-size: 3em;
+    text-decoration: underline;
+    text-decoration-color: #31087B;
+    text-decoration-line: overline;
+}
+
+.inacarou{
+    background-color: #fff;
+    opacity: .7;
+    width: 100%;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.inacarou h1{
+    color: #31087B;
+    font-size: 2em;
+}
+
+.about{
+    /* background-color: white; */
+}
 
 @keyframes move {
     100% {
