@@ -126,7 +126,7 @@ button{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,244,244,0.7147233893557423) 0%, rgba(83,52,131,1) 100%);    font-family: "McLaren";
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
-    padding: 5% 10px;
+    padding: 5% 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,6 +211,14 @@ button{
     }
     .feature{
         height: auto;
+    }
+    .home .card1{
+        height: 30vh;
+        width: 90%;
+    }
+    .featureCol img{
+        margin-top: 30px;
+        height: 300px;
     }
 
 }
