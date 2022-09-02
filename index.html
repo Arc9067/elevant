@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Elevant Official</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/anime.css">
         <link rel="stylesheet" href="./styles/media.css">
@@ -11,8 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/22d9f2c7a2.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
   <body id="date">
+    
         <nav class="navbar navbar-light fixed-top" id="nav">
             <div class="container-fluid">
             <a class="navbar-brand" href="#" style="font-family: McLaren;"><img src="./img/logo2.png" height="40px" alt=""></a>
@@ -61,9 +64,9 @@
     
         <div class="display container-fluid">
             <div class="container">
-                <img src="./img/logo.png" height="300px" class="image-fluid mx-auto d-block" alt="Logo">
-                <h1 class="dh1">ELEVANT</h1>
-                <p>
+                <img src="./img/logo.png" data-aos="fade-down" data-aos-duration="2000" height="250px" class="image-fluid mx-auto d-block" alt="Logo">
+                <h1 class="dh1" data-aos="fade-right" data-aos-duration="3000">ELEVANT</h1>
+                <p data-aos="fade-right" data-aos-duration="3000">
                     BSC Chain Incubator with 
 Extraordinary Features 
 designed to run a project from 
@@ -76,15 +79,15 @@ scratch to hatch
       <section class=" comtainer-fluid home" style="z-index: 1000;">
             <div class="container">
                 <div class="row">
-                    <h1>Our Utility</h1>
+                    <h1 data-aos="fade-down" data-aos-duration="2000">Our Utility</h1>
                     <div class="card1 col-lg-5 col-md-5 col-sm-10 gap-4">
-                        <p>BSC Chain Incubator with 
+                        <p data-aos="fade-left" data-aos-duration="3000">BSC Chain Incubator with 
                             Extraordinary Features 
                             designed to run a project from 
                             scratch to hatch</p>
                     </div>
                     <div class="card1 col-lg-5 col-md-5 col-sm-10 gap-4">
-                        <p>Elevant assure to develop 
+                        <p data-aos="fade-down" data-aos-duration="3000">Elevant assure to develop 
                             crypto products offering as 
                             marketing plan, contract 
                             security, listing services , 
@@ -94,7 +97,7 @@ scratch to hatch
                         </p>
                     </div>
                     <div class="card1 col-lg-5 col-md-5 col-sm-10 gap-4">
-                        <p>
+                        <p data-aos="fade-up" data-aos-duration="3000">
                             Elevant Ecosystem came to 
 offer solutions and simplify the 
 way to make projects plan & 
@@ -111,19 +114,21 @@ Roadmaps Succesful
         <div class="container">
             <div class="row rowCol">
                 <div class="col-lg-7 col-md-7 col-sm-10 featureCol ">
-                    <div class="divh1">
+                    <div class="divh1" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <h1>elevant DEVELOPING & FEATURING:</h1>
                     </div>
                     <ul>
-                        <li><i class="bi bi-hand-index"></i> Community building action plan</li>
-                        <li><i class="bi bi-hand-index"></i> Marketing plan execution</li>
-                        <li><i class="bi bi-hand-index"></i> Smart contract development and security</li>
-                        <li><i class="bi bi-hand-index"></i> Project Cex & Dex listings</li>
-                        <li><i class="bi bi-hand-index"></i> Defi Launch Incubator</li>
+                        <li data-aos="fade-left" data-aos-duration="1000"><i class="bi bi-hand-index"></i> Community building action plan</li>
+                        <li data-aos="fade-right" data-aos-duration="2000"><i class="bi bi-hand-index"></i> Marketing plan execution</li>
+                        <li data-aos="fade-left" data-aos-duration="3000"><i class="bi bi-hand-index"></i> Smart contract development and security</li>
+                        <li data-aos="fade-left" data-aos-duration="2000"><i class="bi bi-hand-index"></i> Project Cex & Dex listings</li>
+                        <li data-aos="fade-left" data-aos-duration="3000"><i class="bi bi-hand-index"></i> Defi Launch Incubator</li>
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-7 col-sm-12 featureCol">
-                    <img src="./img/logo$.png" height="500px" alt="">
+                    <img src="./img/logo$.png" data-aos="fade-left" data-aos-duration="3000" height="500px" alt="">
                 </div>
             </div>
         </div>
@@ -133,10 +138,12 @@ Roadmaps Succesful
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5.5 col-sm-10 featureCom">
-                    <div class="comDiv">
+                    <div class="comDiv" data-aos="flip-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
                         <h1>FOR ELEVANT COMMUNITY</h1>
                     </div>
-                    <p>
+                    <p data-aos="fade-up" data-aos-easing="ease-out-cube" data-aos-duration="3000">
                         Elevant investor base benefits and compensation 
 from projects available on the incubation 
 process. Early access for seed sales, presales, 
@@ -146,13 +153,13 @@ developments and much more.
                 </div>
                 <div class="col-lg-5 col-md-5.5 col-sm-10 featureCom">
                     <div class="comDiv2">
-                        <img src="./img/computer.png" height="300px" alt="">
+                        <img class="comp" src="./img/computer.png" height="300px" alt="">
                     </div>
                     <div id="spec">
                         <div class="comDiv">
                             <h1>Elevant Team & Development</h1>
                         </div>
-                        <p>
+                        <p data-aos="fade-left" data-aos-easing="ease-out-cube" data-aos-duration="3000">
                             Community Network and open services as : Market aiming Plan, Partnerships Contract security, Fundraising, Experience
                         </p>
                 </div>
@@ -183,8 +190,12 @@ developments and much more.
         <span></span>
      </div>
          <div>
-     
+    
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
       <script src="./scripts/index.js"></script>
+      <script>
+        AOS.init();
+      </script>
     </body>
 </html>

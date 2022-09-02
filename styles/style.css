@@ -5,6 +5,7 @@ body{
     overflow-x: hidden;
 }
 
+
 *{
     margin: 0px;
     padding: 0px;
@@ -18,6 +19,7 @@ h1{
 button{
     font-family: "McLaren";
 }
+
 
 .dfont{
     font-family: McLaren;
@@ -199,7 +201,7 @@ i{
 }
 
 .rowCol ul li{
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-family: "McLaren";
     margin-bottom: 10px;
 }
@@ -242,10 +244,11 @@ i{
 }
 
 .featureCom p{
-    font-size: 22px;
+    font-size: 1.2em;
     font-family: "McLaren";
     margin-top: 20px;
     color: white;
+    padding-bottom: 20px;
 }
 
 
@@ -283,6 +286,7 @@ i{
     .featureCol img{
         height: 400px;
         /* background-color: red; */
+        padding-bottom: 20px;
     }
     .com{
         height: auto;
@@ -300,6 +304,10 @@ i{
 }
     #spec{
         order: 10;
+        margin-top: 100px;
+    }
+    .comp{
+        display: none;
     }
     
 }
