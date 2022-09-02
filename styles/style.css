@@ -137,6 +137,10 @@ i{
     color: #fff;
 }
 
+.home .card1 p{
+    padding-left: 10px;
+}
+
 .home h1{
     color: #fff;
 }
@@ -234,6 +238,7 @@ i{
 
 .comDiv h1{
     font-size: 2em;
+    padding-left: 10px;
 }
 
 .featureCom p{
