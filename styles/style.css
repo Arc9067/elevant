@@ -293,4 +293,13 @@ i{
     .featureCom p{
         font-size: 18px;
     }
+    .featureCom2{
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+}
+    #spec{
+        order: 10;
+    }
+    
 }
