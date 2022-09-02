@@ -196,6 +196,48 @@ button{
     margin-bottom: 10px;
 }
 
+.com{
+    height: 100vh;
+    width: 100%;
+    /* background-color: yellow; */
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.com .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.featureCom{
+    height: 100%;
+    /* background-color: green; */
+}
+.comDiv2{
+    background-color: transparent;
+}
+
+.comDiv{
+    padding: 10px 0px;
+    border-radius: 10px;
+    background-color: #b46bd4;
+    color: #FFF;
+}
+
+.comDiv h1{
+    font-size: 2em;
+}
+
+.featureCom p{
+    font-size: 22px;
+    font-family: "McLaren";
+    margin-top: 20px;
+    color: white;
+}
+
 
 @media screen and (max-width:880px) {
     .display p{
@@ -216,9 +258,26 @@ button{
         height: 30vh;
         width: 90%;
     }
+
+    .featureCol{
+        flex-direction: column;
+        height: auto;
+    }
+    .featureCol:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .featureCol img{
-        margin-top: 30px;
-        height: 300px;
+        height: 400px;
+        /* background-color: red; */
+    }
+    .com{
+        height: auto;
+        background-color: transparent;
+        margin-top: 20px;
+        overflow: hidden;
     }
 
 }
