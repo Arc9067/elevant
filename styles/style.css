@@ -11,7 +11,7 @@ body{
 }
 
 h1{
-    font-family: "McLaren";
+    font-family: "Montserrat";
     font-weight: bolder;
 }
 
@@ -125,12 +125,12 @@ i{
     flex-wrap: wrap;
 }
 .home .card1{
-    height: 100px;
+    height: auto;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(244,244,244,0.7147233893557423) 0%, rgba(83,52,131,1) 100%);    font-family: "McLaren";
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 15px;
-    padding: 5% 10%;
+    /* padding: 5% 10%; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,8 +260,9 @@ i{
         height: auto;
     }
     .home .card1{
-        height: 30vh;
+        height: auto;
         width: 90%;
+        padding: 5% 0%;
     }
 
     .featureCol{
