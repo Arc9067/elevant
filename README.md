@@ -12,4 +12,4 @@ This is a readme file for Elevant Coin
 
 `JQUERY` for adding addiional functions to the webisite
 
-`BOOSTRAP` for making the website responsive both on mobile and desktop devices
+`Bootstrap` for making the website responsive both on mobile and desktop devices
