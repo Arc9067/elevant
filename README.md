@@ -3,7 +3,8 @@
 This is a readme file for Elevant Coin
 
 ## Technologies used
-Below Are the Technologies used
+
+#### Below Are the Technologies used
 
 `HTML5` for struturing the website / Website Content
 
