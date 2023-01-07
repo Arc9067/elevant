@@ -4,10 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Elevant Official</title>
+    <meta name="description" content="BSC Chain Incubator with Extraordinary Features designed to run a project from scratch to hatch">
+    <script src="./scripts/jquery.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/anime.css">
-        <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <link rel="icon" href="./img/logo.png">
     <link rel="stylesheet" href="./styles/style.css">
     <link href="https://fonts.googleapis.com/css?family=McLaren|Montserrat&display=swap" rel="stylesheet"/>
     <script src="https://kit.fontawesome.com/22d9f2c7a2.js" crossorigin="anonymous"></script>
@@ -15,6 +18,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
   <body id="date">
+
     
         <nav class="navbar navbar-light fixed-top" id="nav">
             <div class="container-fluid">
@@ -30,17 +34,21 @@
                 <div class="offcanvas-body">
                 <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Utility</a>
+                        <a class="nav-link" href="#utility">Utility</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tokenomics</a>
+                        <a class="nav-link" href="./list.html">Form</a>
                     </li>
+
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#tokenomics">Tokenomics</a>
+                    </li> -->
     
                     <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -54,6 +62,10 @@
                         </li>
                         <li><a class="dropdown-item" href="./Elevant white paper.pdf" target="_blank"><i class="fa-solid fa-file-pdf"></i> Whitepaper</a></li>
                         <li><a class="dropdown-item" href="http://medium.com/@elevantBSC" target="_blank"><i class="fa-brands fa-medium"></i> Medium</a></li>
+                        <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="./Elevant_AuditReport_InterFi.pdf" target="_blank"><i class="fa-solid fa-file-shield"></i> Audit</a></li>
+                        <li><a class="dropdown-item" href="https://github.com/solidproof/projects/tree/main/Elevant" target="_blank"><i class="fa-solid fa-file-shield"></i> Kyc</a></li>
+
                     </ul>
                     </li>
                 </ul>
@@ -61,8 +73,14 @@
             </div>
             </div>
         </nav>    
+
+        <div  id="loading" class="loader">
+            <div class="loader-con">
+                
+            </div>        
+        </div>
     
-        <div class="display container-fluid">
+        <div id="home" class="display container-fluid">
             <div class="container">
                 <img src="./img/logo.png" data-aos="fade-down" data-aos-duration="2000" height="250px" class="image-fluid mx-auto d-block" alt="Logo">
                 <h1 class="dh1" data-aos="fade-right" data-aos-duration="3000">ELEVANT</h1>
@@ -76,10 +94,10 @@ scratch to hatch
         </div>
 
     <!-- home -->
-      <section class=" comtainer-fluid home" style="z-index: 1000;">
+      <section id="about" class=" comtainer-fluid home" style="z-index: 1000;">
             <div class="container">
                 <div class="row">
-                    <h1 data-aos="fade-down" data-aos-duration="2000">Our Utility</h1>
+                    <h1 data-aos="fade-down" data-aos-duration="2000">About Elevant</h1>
                     <div class="card1 col-lg-5 col-md-5 col-sm-10 gap-4">
                         <p data-aos="fade-left" data-aos-duration="3000">BSC Chain Incubator with 
                             Extraordinary Features 
@@ -110,7 +128,7 @@ Roadmaps Succesful
     </section>
 
 
-    <section class="feature container-fluid">
+    <section id="utility" class="feature container-fluid">
         <div class="container">
             <div class="row rowCol">
                 <div class="col-lg-7 col-md-7 col-sm-10 featureCol ">
@@ -134,7 +152,7 @@ Roadmaps Succesful
         </div>
     </section>
 
-    <section class="container-fluid com">
+    <section id="features" class="container-fluid com">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-5.5 col-sm-10 featureCom">
@@ -167,6 +185,102 @@ developments and much more.
             </div>
         </div>
     </section>
+
+    <section class="container-fluid part">
+        <div class="container">
+            <div class="row">
+                <div class="h1part">
+                    <h1>OUR PARTNERS</h1>
+                </div>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="slide d-block w-100">
+                            <img src="./img/pinksale.png" alt="">
+                            <img src="./img/bscscan.webp" alt="">
+                            <img src="./img/poocoin.png" alt="">
+                            <img src="./img/pancakeswap.png" alt="">
+                            <img src="./img/coingecko.webp" alt="">
+                            <img src="./img/cmc.png" alt="">
+                            <!-- <img src="./img/" alt=""> -->
+
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="slide d-block w-100">
+                            <img src="./img/pinksale.png" alt="Pinksale Logo">
+                            <img src="./img/bscscan.webp" alt="bscscan Logo">
+                            <img src="./img/poocoin.png" alt="Poocoin Logo">
+                            <img src="./img/pancakeswap.png" alt="Pancakeswap Logo">
+                            <img src="./img/coingecko.webp" alt="Coingecko Logo">
+                            <img src="./img/cmc.png" alt="cmc Logo">
+                            <!-- <img src="./img/" alt=""> -->
+                      </div>
+                    </div>
+                  </div>
+                  <div class="caroubtn dflex mt-50">
+                    <a href="https://pancakeswap.finance/swap?outputCurrency=0xa29ba02e128503310a677bd7b52a0d81e7beffcb" target="_blank"><button type="button" class="btn  btn-lg">BUY ELEVANT</button></a>
+                    <a href="https://poocoin.app/tokens/0xa29ba02e128503310a677bd7b52a0d81e7beffcb" target="_blank"><button type="button" class="btn  btn-lg">ELEVANT CHART</button></a>
+                    <a target="_blank" href="./list.html"><button type="button" class="btn caroub3  btn-lg">DAPP</button></a>
+                  </div>
+
+                </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h6>About</h6>
+              <p class="text-justify">Elevantofficial.com <i>Elevant Ecosystem </i> came to offer solutions and simplify the way to make projects plan & Roadmaps Succesful. Elevant assure to develop crypto products offering as marketing plan, contract security, listing services , engagement of communities and much more</p>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Social</h6>
+              <ul class="footer-links">
+                <li><a href="https://t.me/ElevantOfficial">Telegram</a></li>
+                <li><a href="http://twitter.com/ElevantOfficial">Twitter</a></li>
+                <li><a href="http://medium.com/@elevantBSC">Medium</a></li>
+                <li><a href="http://t.me/ElevantAnnouncements">Telegram Channel</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pan">Plan</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#community">Elevant & Community</a></li>        
+                <li><a href="./Elevant white paper.pdf" target="_blank">WhitePaper</a></li>
+                <li><a href="https://github.com/solidproof/projects/tree/main/Elevant" target="_blank">Kyc</a></li>
+                <li><a href="./Elevant_AuditReport_InterFi.pdf" target="_blank">Audit</a></li>
+
+             </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+           <a href="#">Elevant</a>.
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://t.me/ElevantOfficial"><i class="fa fa-telegram"></i></a></li>
+                <li><a class="twitter" href="http://twitter.com/ElevantOfficial"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="http://medium.com/@elevantBSC"><i class="fa fa-medium"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-instagram"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
     <div class="background">
         <span></span>
         <span></span>
@@ -191,6 +305,11 @@ developments and much more.
      </div>
          <div>
     
+    <script>
+        $(window).on("load",function(){
+            $(".loader").fadeOut(6000)
+        })
+    </script>
       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
       <script src="./scripts/index.js"></script>

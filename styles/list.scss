@@ -1,0 +1,44 @@
+.form{
+    height: auto;
+    width: 100%;
+    background-color: transparent;
+    z-index: 100000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: auto;
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    .submit{
+        background-color: #513252;
+        color: white;
+        border-radius: 10px;
+    }
+
+    input, select{
+        margin-bottom: 20px;
+        padding: 5px;
+        outline: none;
+        border: none;
+        color: black;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    input:focus{
+        background-color: #F9F9F9;
+        border-radius: 10px;
+        color: black;
+    }
+}
+
