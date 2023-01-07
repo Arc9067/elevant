@@ -6,10 +6,16 @@ This is a readme file for Elevant Coin
 
 #### Below Are the Technologies used
 
-`HTML5` for struturing the website / Website Content
+* `HTML5` for struturing the website / Website Content
 
-`CSS` for Styling the website 
+* `CSS` for Styling the website 
 
-`JQUERY` for adding addiional functions to the webisite
+* `JQUERY` for adding addiional functions to the webisite
 
-`Bootstrap` for making the website responsive both on mobile and desktop devices
+* `Bootstrap` for making the website responsive both on mobile and desktop devices
+
+## Website Preview
+
+#### Desktop Preview
+
+
